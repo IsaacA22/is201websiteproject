@@ -1,0 +1,81 @@
+
+
+
+
+/* resume stuff */
+.common{
+    font-family:'Times New Roman', Times, serif;
+    position:absolute
+}
+
+.top{
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    font-size:x-large;
+    text-align: center;
+    color: white;
+}
+.middle{
+    
+    align-items: center;
+   
+    top: 100px; 
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    top: 1000px; 
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left, .right {
+    flex: 1;
+    background-color: blue; /* Adjust color for left and right sections */
+}
+
+.middle {
+    flex: 3;
+    background-color: lightgray; /* Adjust color for middle section */
+}
+
+.fixed-tab {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; /* Set z-index to ensure the tab stays above other content */
+}
+
+.fixed-tab a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fixed-tab a:hover {
+    text-decoration: underline;
+}
